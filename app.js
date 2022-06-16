@@ -12,10 +12,12 @@ const seattle = {
   avgCookiePerCust: 6.3,
   custAtEachHour: [],
   totalSales: 0,
-
+  
   genCustPerHour: function() {
+    
     for (let i = 0; i < hours.length; i++) {
       let number = generateNumberBetween(this.minCust, this.maxCust);
+     
       console.log(number);
       this.custAtEachHour.push(number);
     }
@@ -23,7 +25,7 @@ const seattle = {
     return this.custAtEachHour;
     
   },
- 
+  
   genCookiesPerHour: function (custAtEachHour) {
     let result = [];
     let sum = 0;
@@ -33,7 +35,8 @@ const seattle = {
       sum = sum + totalAtHour;
       result.push(totalAtHour); 
     }
-      // result.push(sum);
+
+    
     this.totalSales = sum;
     return result;
   }
@@ -44,26 +47,34 @@ let seattleCookiesPerHour = seattle.genCookiesPerHour(seattle.custAtEachHour);
 console.log(seattle);
 console.log(seattleCookiesPerHour);
 
+
+
 function displayHours(sales) {
   let seattleResults = document.getElementById('seattle-results');
-
-  
   let listElement = document.createElement('ul');
   seattleResults.appendChild(listElement);
 
-
+  
   for (let i = 0; i < sales.length; i++) {
+    
     let listItemElement = document.createElement('li');
     listItemElement.textContent = hours[i] + ': ' + sales[i] + ' cookies';
+    
     listElement.appendChild(listItemElement);
   }
 
+  
   let totalElement = document.createElement('li');
   totalElement.textContent = 'Total: ' + seattle.totalSales + ' cookies';
   listElement.appendChild(totalElement);
 }
 
 displayHours(seattleCookiesPerHour);
+
+
+
+
+// // displayHours(seattleCookiesPerHour);
 
 
 const tokyo = {
@@ -282,4 +293,3 @@ function displayHours(sales) {
 
 
 
-/
