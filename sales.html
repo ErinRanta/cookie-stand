@@ -14,19 +14,59 @@
 
     </table>
     <form id="store-form">
-      <input type="text" name="location">
+      <!-- <input type="text" name="location">
       <input type="text" name="min">
       <input type="text" name="max">
-      <input type="text" name="avgCookies">
-
+      <input type="text" name="avgCookies"> -->
+      <body>
+        <h2>Salmon Cookies. Join us, buy a franchise!</h2>
+        <img src="https://github.com/codefellows/seattle-201d87/blob/main/class-08/lab-b/assets/fish.jpg?raw=true" width="170" height="170">
       
-
-    </form>
+        <form id='addCity'>
+          <fieldset>
+            <legend>Use this form to add a new City</legend>
       
-    <script src="app.js"></script>
-</body>
+            <div class='formDiv'>
+              <label for='cityName'>City Name: </label>
+              <input type='text' name='cityName' required>
+   
+              <label for='min'>Min. Customers Per Hour: </label>
+              <input type="text" name='min' required>
+            </div>
+      
+            <div class='formDiv'>
+              <label for='max'>Maximum Customers Per Hour: </label>
+              <input type='text' name='max' required>
+      
+              <label for='avgCookies'>Average Cookies purchased </label>
+              <input type='text' name='avgCookies' required>
+            </div>
+      
+            <input id='button' type="submit" value="Click here to add">
+          </fieldset>
+        <table id="cookieData">
+
+
+        </form>
+
+        <script src="app.js"></script>
+
+      </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+      
+
+    
+
 
 
 
