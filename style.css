@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(24, 60, 28);
+} 
+
+img {
+    align-center;
+
+
+}
+
+#cookiecutter {
+    margin-left: 550px;
+
+}
+
+#mainfish.align-center {
+    display: block
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  } 
+div{
+    list-style-position: inside;
+    text-align: center;
+    font-size: large;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 115px;
+}
+
+
+
+h1 {
+   text-align: center;
+   color: #777777;
+    
+}
+h1{
+border-style: solid;
+border-color: rgb(187, 123, 19);
+
+}
+h1{
+-moz-box-shadow: 5px 5px 5px 5px #777777;
+-webkit-box-shadow: 5px 5px 5px 5px #777777;
+box-shadow: 5px 5px 5px 5px #777777;
+}
+
+p {
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+}
+#xmas {
+    margin-top: 125px;
+}
+h2 {
+    margin-top: 122px;
+}
+#color {
+float-right:
+
+}
+
+
+#grande {
+    align-center:
+    margin-top: 80px
+}
+
+#colorful {
+    margin-top: 175px;
+    margin-left: 10px;
+}
+#fam {
+    margin-left: 980px;
+}
+
+ 
+ #cookiecutter {
+     /* margin-left: 5px;
+margin-top:20px; */
+float-right:
+
+ }
+
+
+
+    
+
+ #tshirt {
+    margin-top: 240px;
+ }
+
+ #family{
+
+    margin-left: 1020px;
+ }
+ 
