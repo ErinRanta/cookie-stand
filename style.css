@@ -88,18 +88,18 @@ float-right:
 #fam {
 position: relative;
 left: 410px;
+bottom: 260px;
 }
 
  
- #cookiecutter {
+#cookiecutter {
    
     position: relative;
     right: 870px;
     bottom: 1112px;
 
  }
-
- #tshirt {
+#tshirt {
     
     position: relative;
     bottom: 875px;
@@ -107,11 +107,13 @@ left: 410px;
  }
 
  #family{
-     text-align:center;
+    text-align:center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
     color:rgb(187, 123, 19);
+    margin-bottom: 300px;
  }
+
 
  #retail {
 position: relative;
@@ -122,12 +124,20 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 color:rgb(187, 123, 19);
  }
 
+ #reviews {
+    position: relative;
+    bottom: 250px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(187, 123, 19);
+}
 
 
 
 
- .topnav-right, a:link, a:visited {
-    background-color: rgb(29, 144, 233);
+
+
+.topnav-right, a:link, a:visited {
+    background-color: rgb(219, 210, 39);
     color: rgb(187, 123, 19);
     border: 2px #777777;
     text-align: center;
@@ -142,22 +152,14 @@ color:rgb(187, 123, 19);
    }
 
 
+#reviews {
+    position: relative;
+   bottom: 250px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(187, 123, 19);
+}
+   
+  
+    
 
    
-   #ellen{ 
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(187, 123, 19);
-   
-   }
-
-   #maro{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(187, 123, 19);
-   
-    }
-
-    #me{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(187, 123, 19);
-   
-    }
