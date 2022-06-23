@@ -1,3 +1,26 @@
+
+h1 {
+    text-align: center;
+    font-family: 'Anek Malayalam', sans-serif;
+
+}
+
+h2{
+    text-align: center;
+    font-family: 'Anek Malayalam', sans-serif;
+}
+
+
+
+
+#store-form{
+    margin-top: 140px;
+    margin-left: 500px;
+}
+
+
+
+=======
 h1 {font-family: 'Anek Malayalam', sans-serif;
 
 }
@@ -18,12 +41,43 @@ h2 {
 }
 
 
-body, a { background-color: rgb(82, 156, 107); 
-        color:rgb(8, 66, 37); 
-        font-family: Arial, Helvetica, sans-serif;}
 
 
 
+
+
+table { 
+    border: 5px black;
+    width:auto; 
+    margin: 10px; 
+    /* overflow-x: scroll; 
+    overflow-y: scroll;  */
+
+}
+
+td, th, tr {
+    border: 3px solid black;
+    padding: 1px;
+    border-radius: 10%;
+    text-align: center;
+}
+
+
+.store-location, .totals, .heading, .total {
+    font-weight: bold;
+    font-size: Large;
+    background-color: rgb(93, 160, 12);
+}
+body, a { background-color: rgb(9, 92, 66);
+         color:rgb(171, 235, 189);
+    }
+
+
+table { 
+    border: 5px black; 
+    width:auto; 
+    margin: 10px; 
+    
 
 
 table { 
@@ -31,10 +85,26 @@ table {
     width:auto; 
     margin: 10px; 
 
+
 }
 
 td, th, tr {
     border: 3px solid black; 
+
+    padding: 1.5px;
+     border-radius: 10%; 
+     text-align: center;
+}
+
+.store-location, .totals, .heading, .total {
+    font-size: medium;
+    font-weight: bold;
+}
+
+#clearTable {
+    margin-left: 600px;
+
+
     padding: 1.5px; 
     border-radius: 10%; 
     text-align: center;
@@ -44,4 +114,5 @@ td, th, tr {
 .store-location, .totals, .heading, .total {
     font-weight: bold;
     background-color: rgb(15, 58, 40);
+
 }
