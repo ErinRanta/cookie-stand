@@ -4,8 +4,6 @@ body {
 
 /* img {
     align-center;
-
-
 } */
 
 #cookiecutter {
@@ -71,13 +69,13 @@ h2 {
 
 /* #color {
 float-right:
-
 } */
 
 
 #grande {
    position: relative;
     top: -200px;
+    left: 500px;
 }
 
 #color {
@@ -85,33 +83,38 @@ float-right:
     left: 450px;
     color:rgb(187, 123, 19)
 }
-#fam {
-position: relative;
-left: 410px;
-}
+
 
  
  #cookiecutter {
    
     position: relative;
     right: 870px;
-    bottom: 1112px;
+    bottom: 1212px;
 
  }
 
  #tshirt {
     
     position: relative;
-    bottom: 875px;
+    bottom: 975px;
     right: 875px;
  }
 
  #family{
-     text-align:center;
+   position: absolute;
+     text-align:left;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
     color:rgb(187, 123, 19);
  }
+
+ #fam {
+   margin-bottom: 10px;
+   
+    }
+
+
 
  #retail {
 position: relative;
@@ -127,8 +130,7 @@ color:rgb(187, 123, 19);
 
 
  .topnav-right, a:link, a:visited {
-    background-color: rgb(29, 144, 233);
-    color: rgb(187, 123, 19);
+    background-color: rgb(205, 227, 38);
     border: 2px #777777;
     text-align: center;
     font-size: large;
@@ -136,7 +138,7 @@ color:rgb(187, 123, 19);
 }
 
  .topnav-right, a:hover, a:active{
-    background-color: rgb(29, 144, 233);
+    background-color: rgb(205, 227, 38);
     color: #777777;
     border: 2px #777777;
    }
@@ -144,20 +146,15 @@ color:rgb(187, 123, 19);
 
 
    
-   #ellen{ 
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(187, 123, 19);
-   
-   }
-
-   #maro{
+   #reviews {
+    text-align: center;
+    word-wrap: break-word;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(187, 123, 19);
    
     }
-
-    #me{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(187, 123, 19);
    
-    }
+  
+    
+
+   
