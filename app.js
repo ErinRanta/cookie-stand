@@ -77,20 +77,20 @@ Store.prototype.renderData = function() {
 let seattle = new Store('Seattle', 10, 20, 3);
 let lima = new Store('Lima', 1, 50, 2.6);
 let paris = new Store('Paris', 5, 25, 4);
-let london = new Store('London', 13, 19, 6);
-let newYork = new Store('New York', 2, 15, 3.5);
+let dubai = new Store('dubai', 13, 19, 6);
+let tokyo = new Store('tokyo', 2, 15, 3.5);
 
 seattle.generateCookiesPerHour();
 lima.generateCookiesPerHour();
 paris.generateCookiesPerHour();
-london.generateCookiesPerHour();
-newYork.generateCookiesPerHour();
+dubai.generateCookiesPerHour();
+tokyo.generateCookiesPerHour();
 
 seattle.renderData();
 lima.renderData();
 paris.renderData();
-london.renderData();
-newYork.renderData();
+dubai.renderData();
+tokyo.renderData();
 
 function renderFooter() {
   let tableEl = document.getElementById('sales-data');
