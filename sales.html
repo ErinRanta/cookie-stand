@@ -1,65 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <html lang="en">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home</title>
-    </head>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sales.css">
+    <title>Sales Information</title>
+</head>
 <body>
+    <h1>Sales Numbers!</h1>
+    <a href="index.html">Main Page</a>
+    
+    
+    
     <table id="sales-data">
-
-    </table>
+       </table>
+    
+    <h2>Join us! Salmon Cookies Make $$$!</h2>
     <form id="store-form">
-      <!-- <input type="text" name="location">
-      <input type="text" name="min">
-      <input type="text" name="max">
-      <input type="text" name="avgCookies"> -->
-      <body>
-        <h2 style="font-family: sans-serif">Salmon Cookies. Join us, buy a franchise!</h2>
-        <img src="https://github.com/codefellows/seattle-201d87/blob/main/class-08/lab-b/assets/fish.jpg?raw=true" width="170" height="170">
-      
-        <form id='addCity'>
-          <fieldset>
-            <legend style="font-family: Georgia, 'Times New Roman', Times, serif">Use this form to add a new City</legend>
-      
-            <div style="font-family: Arial, Helvetica, sans-serif" class='formDiv'>
-              <label for='cityName'>City Name: </label>
-              <input type='text' name='cityName' required>
-   
-              <label for='min'>Min. Customers Per Hour: </label>
-              <input type="text" name='min' required>
-            </div>
-      
-            <div class='formDiv'>
-              <label for='max'>Maximum Customers Per Hour: </label>
-              <input type='text' name='max' required>
-      
-              <label for='avgCookies'>Average Cookies purchased </label>
-              <input type='text' name='avgCookies' required>
-            </div>
-      
-            <input id='button' type="submit" value="Click here to add">
-          </fieldset>
-        <table id="cookieData">
-
-
-        </form>
-
-        <script src="app.js"></script>
-        <a href="sales.html">Home Page</a>
-      </body>
-
+      <fieldset>
+        <legend>Create a new Store</legend>
+      <div>
+          <label>Store Name</label>
+          <input id='store-name' name="storeName" type="text" placeholder="Ex: Queens" required>
+        </div>
+        <div>
+          <label>Max Cust Per Hour</label>
+          <input type="number" name="maxCust">
+        </div>
+        <div>
+          <label>Min Cust Per Hour</label>
+       <input type="number" name="minCust">
+        </div>
+        <div>
+          <label>Avg Cookies per sale</label>
+          <input type="number" name="avgSale" placeholder="Ex. 2.5">
+        </div>
+        <button id="submit-button">Submit Here</button>
+      </fieldset>
+      <br>
+    </form>
+    <button id=clearTable onclick='clearTable()'>Go!</button>
+    <script src="app.js"></script>
+</body>
 </html>
-
-
-
-
-
-
 
 
 
