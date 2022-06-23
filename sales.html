@@ -2,25 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="sales.css">
-    
     <title>Sales Information</title>
 </head>
-
 <body>
-    <h1>Sales Report</h1>
-    <a href="index.html">Home Page</a>
+    <h1>Sales Numbers!</h1>
+    <a href="index.html">Main Page</a>
     
-    <table id="sales-data"></table>
-        
-   
-    <h2>Join Us! Salmon Cookies = $$$!</h2>
-   <form id="store-form">
+    
+    
+    <table id="sales-data">
+       </table>
+    
+    <h2>Join us! Salmon Cookies Make $$$!</h2>
+    <form id="store-form">
+
       <fieldset>
-        <legend>Create new Store</legend>
-        <div>
+        <legend>Create a new Store</legend>
+      <div>
           <label>Store Name</label>
           <input id='store-name' name="storeName" type="text" placeholder="Ex: Queens" required>
         </div>
@@ -30,23 +31,24 @@
         </div>
         <div>
           <label>Min Cust Per Hour</label>
-          <input type="number" name="minCust">
+       <input type="number" name="minCust">
         </div>
         <div>
           <label>Avg Cookies per sale</label>
-          <input type="number" name="avgSale" placeholder="Ex. 5.1">
+          <input type="number" name="avgSale" placeholder="Ex. 2.5">
         </div>
-        <button id="submit-button">Submit Me</button>
+        <button id="submit-button">Submit Here</button>
       </fieldset>
-    
       <br>
     </form>
     <button id=clearTable onclick='clearTable()'>Go!</button>
-    <script src="sales.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
+    
 
 
+       
 
 
 
