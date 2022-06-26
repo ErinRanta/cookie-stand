@@ -2,10 +2,6 @@ body {
     background-color: rgb(24, 60, 28);
 } 
 
-/* img {
-    align-center;
-} */
-
 #cookiecutter {
     margin-left: 550px;
 
@@ -20,7 +16,8 @@ body {
     margin-right: auto;
     width: 40%;
   } 
-div{
+
+div {
     position: relative;
     top: -200px;
     /* left: 40px; */
@@ -31,8 +28,6 @@ div{
     color:rgb(187, 123, 19);
     
 }
-
-
 
 h1 {
    text-align: center;
@@ -54,6 +49,7 @@ p {
 font-family: Arial, Helvetica, sans-serif;
 text-align: center;
 }
+
     #xmas {
     position: relative;
     top: 100px;
@@ -66,11 +62,6 @@ h2 {
    font-size: large;
    color:rgb(187, 123, 19);
 }
-
-/* #color {
-float-right:
-} */
-
 
 #grande {
    position: relative;
@@ -112,17 +103,17 @@ float-right:
  #fam {
    margin-bottom: 10px;
    
-    }
+}
 
 
 
  #retail {
-position: relative;
-right: 700px;
-bottom: 870px;
-font-style: bold;
-font-family: Georgia, 'Times New Roman', Times, serif;
-color:rgb(187, 123, 19);
+    position: relative;
+    right: 700px;
+    bottom: 870px;
+    font-style: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(187, 123, 19);
  }
 
 
@@ -134,8 +125,8 @@ color:rgb(187, 123, 19);
     border: 2px #777777;
     text-align: center;
     font-size: large;
-    
-}
+}    
+
 
  .topnav-right, a:hover, a:active{
     background-color: rgb(205, 227, 38);
@@ -146,7 +137,7 @@ color:rgb(187, 123, 19);
 
 
    
-   #reviews {
+ #reviews {
     text-align: center;
     word-wrap: break-word;
     font-family: Georgia, 'Times New Roman', Times, serif;
